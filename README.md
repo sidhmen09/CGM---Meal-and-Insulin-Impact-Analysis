@@ -34,5 +34,5 @@ Analyze how meal intake and insulin dosage impact postprandial glucose response 
   - Average carb Intake : 58.4 g
   - Average insulin units : 8.2 unit
 
-  [Graphs Preview](https://github.com/sidhmen09/CGM---Meal-and-Insulin-Impact-Analysis/blob/main/eda_visualization.png)
+![Graphs Preview](https://github.com/sidhmen09/CGM---Meal-and-Insulin-Impact-Analysis/blob/main/eda_visualization.png)
   
