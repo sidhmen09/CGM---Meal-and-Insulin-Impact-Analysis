@@ -35,4 +35,20 @@ Analyze how meal intake and insulin dosage impact postprandial glucose response 
   - Average insulin units : 8.2 unit
 
 ![Graphs Preview](https://github.com/sidhmen09/CGM---Meal-and-Insulin-Impact-Analysis/blob/main/eda_visualization.png)
-  
+
+## Model Performance & Feature Importance
+
+-  Model Performance
+  - Spike Magnitude (R²) : 0.664
+  - Spike Magnitude (MAE) : 33.97 mg/dL
+  - Time to Peak (R²) : 0.105
+  - Time to Peak (MAE) : 8.42 minutes
+
+-  Top 5 Predictive Features:
+  - time_since_last_insulin : 0.425
+  - baseline_glucose : 0.208
+  - insulin_to_carb_ratio : 0.139
+  - carbs : 0.136
+  - activity_adjusted_carbs : 0.041
+
+![Graphs Preview](https://github.com/sidhmen09/CGM---Meal-and-Insulin-Impact-Analysis/blob/main/model_performance.png)
