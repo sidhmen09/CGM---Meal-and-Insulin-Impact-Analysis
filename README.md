@@ -32,9 +32,7 @@ Analyze how meal intake and insulin dosage impact postprandial glucose response 
   - Lunch events : 982
   - Dinner events : 998
   - Average carb Intake : 58.4 g
-  - Average insulin units : 8.2 units
- 
-  ## Graphs and Demo
+  - Average insulin units : 8.2 unit
 
   [Graphs Preview](https://github.com/sidhmen09/CGM---Meal-and-Insulin-Impact-Analysis/blob/main/eda_visualization.png)
   
