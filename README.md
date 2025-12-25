@@ -39,16 +39,30 @@ Analyze how meal intake and insulin dosage impact postprandial glucose response 
 ## Model Performance & Feature Importance
 
 -  Model Performance
-  - Spike Magnitude (R²) : 0.664
-  - Spike Magnitude (MAE) : 33.97 mg/dL
-  - Time to Peak (R²) : 0.105
-  - Time to Peak (MAE) : 8.42 minutes
+  
+    - Spike Magnitude (R²) : 0.664
+    - Spike Magnitude (MAE) : 33.97 mg/dL
+    - Time to Peak (R²) : 0.105
+    - Time to Peak (MAE) : 8.42 minutes
 
 -  Top 5 Predictive Features:
-  - time_since_last_insulin : 0.425
-  - baseline_glucose : 0.208
-  - insulin_to_carb_ratio : 0.139
-  - carbs : 0.136
-  - activity_adjusted_carbs : 0.041
+  
+    - time_since_last_insulin : 0.425
+    - baseline_glucose : 0.208
+    - insulin_to_carb_ratio : 0.139
+    - carbs : 0.136
+    - activity_adjusted_carbs : 0.041
 
 ![Graphs Preview](https://github.com/sidhmen09/CGM---Meal-and-Insulin-Impact-Analysis/blob/main/model_performance.png)
+
+## Prediction Analysis
+
+![Graphs Preview](https://github.com/sidhmen09/CGM---Meal-and-Insulin-Impact-Analysis/blob/main/predictions_analysis.png)
+
+## Key Insights
+
+-  High-carb meals with low activity produce 125.7 mg/dL spikes vs. 113.8 mg/dL with high activity (11.9 mg/dL reduction).
+-  Pre-meal insulin (within 30 min) reduces spikes by 111.8 mg/dL compared to insulin given >60 minutes before meals.
+-  Dinner meals show highest spike magnitude (96.2 mg/dL) and longest time-to-peak (9.8 min).
+-  Optimal insulin-to-carb ratio: 0.167 units/gram (Current average: 0.144 units/gram).
+-  Higher baseline glucose (>120 mg/dL) associated with -124.1 mg/dL larger postprandial spikes.
